@@ -1,0 +1,34 @@
+{
+    "name": "taxi-ride-maqueen",
+    "version": "1.2.5",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "ir": "github:tangjie133/pxt-DFRobot_IR#v0.0.7"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "_locales/zh-cn/DFRobot_MaqueenPlus_V2.0-strings.json",
+        "_locales/zh-tw/DFRobot_MaqueenPlus_V2.0-strings.json",
+        "maqueenplus.ts",
+        "enums.d.ts",
+        "ws2812b.ts",
+        "sendBuffer.asm",
+        "shims.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
